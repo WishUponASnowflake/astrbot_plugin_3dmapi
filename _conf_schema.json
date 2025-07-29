@@ -1,0 +1,21 @@
+{
+  "appkey": {
+    "type": "string",
+    "description": "3dmgame API密钥",
+    "hint": "请在3dmgame开发者平台获取API密钥",
+    "obvious_hint": true,
+    "default": "{APPKEY}"
+  },
+  "game_id": {
+    "type": "int",
+    "description": "默认搜索的游戏ID",
+    "hint": "261对应某个特定游戏，可根据需要修改",
+    "default": 261
+  },
+  "max_results": {
+    "type": "int",
+    "description": "最大搜索结果数量",
+    "hint": "设置每次搜索返回的最大结果数量",
+    "default": 10
+  }
+}
