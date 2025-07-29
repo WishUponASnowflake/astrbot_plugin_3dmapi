@@ -13,10 +13,10 @@
 ## 安装配置
 
 1. 将插件放置到AstrBot的插件目录
-2. 在AstrBot管理面板中找到"3dmmod_search"插件
-3. 点击"管理" -> "配置"
+2. 在AstrBot管理面板中找到"astrbot_plugin_3dmapi"插件
+3. 点击"插件管理" -> "插件配置"
 4. 设置以下配置项：
-   - `appkey`: 您的3DMGame API密钥
+   - `appkey`: 您的[3DMGame API](https://mod.3dmgame.com/Workshop/Api)密钥
    - `game_id`: 要搜索的游戏ID（默认261）
    - `max_results`: 最大搜索结果数量（默认10）
 
