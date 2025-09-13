@@ -17,5 +17,12 @@
     "description": "最大搜索结果数量",
     "hint": "设置每次搜索返回的最大结果数量",
     "default": 10
+  },
+  "sort_order": {
+    "type": "string",
+    "description": "搜索结果排序方式",
+    "hint": "设置搜索结果的排序方式",
+    "options": ["时间排序", "综合排序", "下载量排序"],
+    "default": "时间排序"
   }
 }
